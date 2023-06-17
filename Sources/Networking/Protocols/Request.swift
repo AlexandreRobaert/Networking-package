@@ -14,7 +14,7 @@ public protocol Request {
     var mockFile: String? { get }
 }
 
-extension Request {
+public extension Request {
     var scheme: String {
         "https"
     }
