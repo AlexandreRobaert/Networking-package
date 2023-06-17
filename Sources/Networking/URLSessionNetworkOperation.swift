@@ -11,7 +11,7 @@ public class URLSessionNetworkOperation: NetworkOperation {
     
     private let session: URLSession
     
-    internal init(session: URLSessionConfiguration = .default) {
+    public init(session: URLSessionConfiguration = .default) {
         self.session = URLSession(configuration: session)
     }
     
