@@ -24,7 +24,7 @@ public extension Request {
     }
     
     var port: Int? {
-        nil
+        80
     }
     
     var token: String {
